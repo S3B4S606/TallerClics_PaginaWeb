@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador de Likes</title>
+
+    <!-- Conectar los estilos CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <main class="container">
+
+        <h1>Interactividad con el DOM</h1>
+
+        <p class="description">
+            Haz clic en el botón para incrementar el contador
+            y registrar la hora exacta del evento.
+        </p>
+
+        <!-- Contador -->
+        <div id="contador">0</div>
+
+        <!-- Botón -->
+        <button id="btn-like">
+            ¡Haz clic aquí!
+        </button>
+
+        <!-- Tabla de registros -->
+        <section class="table-container">
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nº Clic</th>
+                        <th>Hora</th>
+                    </tr>
+                </thead>
+
+                <tbody id="tabla-registros">
+                    <!-- Aquí aparecerán los registros -->
+                </tbody>
+            </table>
+
+        </section>
+
+    </main>
+
+    <!-- Conectar JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+</html>

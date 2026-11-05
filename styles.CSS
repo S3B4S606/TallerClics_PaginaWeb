@@ -1,0 +1,112 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7f6;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 20px;
+}
+
+.container {
+    background-color: white;
+    width: 100%;
+    max-width: 450px;
+    padding: 30px;
+
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.10);
+
+    text-align: center;
+}
+
+/* Título */
+h1 {
+    color: #2c3e50;
+    font-size: 25px;
+    margin-bottom: 12px;
+}
+
+/* Descripción */
+.description {
+    color: #555;
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+/* Contador */
+#contador {
+    color: #3498db;
+    font-size: 55px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+/* Botón */
+#btn-like {
+    background-color: #2ecc71;
+    color: white;
+
+    border: none;
+    border-radius: 6px;
+
+    padding: 14px 30px;
+    font-size: 17px;
+    font-weight: bold;
+
+    cursor: pointer;
+    width: 100%;
+
+    box-shadow: 0 4px 6px rgba(46, 204, 113, 0.2);
+
+    transition: 0.3s;
+}
+
+/* Efecto cuando pasamos el mouse */
+#btn-like:hover {
+    background-color: #27ae60;
+    transform: translateY(-2px);
+}
+
+/* Contenedor de la tabla */
+.table-container {
+    margin-top: 25px;
+    max-height: 250px;
+    overflow-y: auto;
+}
+
+/* Tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Encabezados */
+th {
+    background-color: #f8f9fa;
+    color: #7f8c8d;
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Celdas */
+td {
+    padding: 12px;
+    color: #333;
+    border-bottom: 1px solid #eee;
+}
+
+/* Filas alternadas */
+tbody tr:nth-child(even) {
+    background-color: #fafafa;
+}
